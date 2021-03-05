@@ -1,0 +1,192 @@
+
+
+#genel{
+	width:1280px;
+	height:1200px;
+	margin: auto;
+	background-color:#ccc9c9;
+	
+}
+
+/*----- EN ÜST BÖLÜM -----*/
+
+#banner{ width:1280px; height:150px; background-color:green; }
+
+.banner-ust form{ float:right; margin:20px 18px; }
+.banner-ust img{ margin:10px; }
+.logo{ width:180px; height:150px; float:left; }
+.banner-ust{ width:1100px; height:90px; float:left; background-color:green; background-color:hsla(0,100%,100&,1); }
+.banner-ust a {
+	font-size:16px;
+	color:black;
+	text-decoration:none;
+	float:right;
+	margin:20px 18px ;
+	cursor:pointer;
+}
+.banner-alt{
+	width:1100px;
+	height:60px;
+	float:left;
+	background-color:gray;
+}
+.banner-alt ul{
+	text-decoration:none;
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+.banner-alt ul li{ float:left;  }
+.banner-alt table tr td li a{
+	border-radius:5px;
+	display:block;
+	width:93px;
+	height:30px;
+	text-decoration:none;
+	text-align:center;
+	font-size:12px;
+	font-family:arial black;
+	padding:19px 0 0 0 ;
+	color:black;
+	border-style:solid;
+	border-color:black;
+}
+.banner-alt ul li a:hover{	text-decoration:none; background:#3b373d;	 	; color:black; }
+
+/*----- EN ALT BÖLÜM -----*/
+
+#alt-alan{ width:1280px; height:150px; background:green; float:left; }
+#alt-alan ul{ float:left; padding:15px 0 0 90px; }
+#alt-alan ul li{ list-style:none; }
+#alt-alan ul li a{ text-decoration:none; color:black; font:17px tahoma; }
+#alt-alan ul li a:hover{ text-decoration:underline; color:#e7e7e7; }
+#alt-alan form{ padding:25px 0 0 490px;}
+
+/*----sosyal medya ikonları----*/
+.sosyal li{ float:left; padding:0 0 0 10px; }
+
+/*----- EN ALT SOL BÖLÜM -----*/
+
+.takvim{ width:180px; height:150px; float:left; }
+.alt-orta{ width:920px; height:150px; float:left; }
+.saat{ width:180px; height:150px; float:right; }
+.alt-orta a{ text-decoration:none; align:bottom; font:13px tahoma; }
+
+/*----- ORTA SOL BÖLÜM -----*/
+
+#sol-sitebar{ width:180px; height:900px; background-color:#393f3b; float:left; }
+#sol-sitebar ul{ list-style:none; margin:0; padding:0; }
+#sol-sitebar ul li a{ text-decoration:none; display:block; width:140px; height:28px; background:gray;
+ color:black; padding:7px 0 0 5px; margin:10px 25px 0 18px ; font-family:arial black; font-size:13px; }
+#sol-sitebar ul li a:hover{ text-decoration:underline; background:gray; color : green; } 
+
+
+/*----- ORTA BÖLÜM -----*/
+
+#orta{ width:920px; height:900px; background-color:#e7e7e7; float:left; }
+
+#orta h1{ font-family:calibri; padding-left:100px; } 
+#orta p{ padding:0 10px 0 10px; text-indent:25px; font-size:16px; }
+#orta img{ padding:0 10px 0 10px; }
+#orta h3{ font-family:calibri; padding-left:10px; }
+#orta b{ padding-left:10px; }
+#orta li{ padding-left:10px; }
+#orta a{ text-decoration:none;}
+
+/*----- ORTA SAĞ BÖLÜM -----*/
+
+#sag-sitebar{ width:180px; height:900px; background:#393f3b; float:left; }
+#sag-sitebar table a{ padding-left:11px; }
+#sag-sitebar table h2{ padding-left:20px; color:#e7e7e7; font-family:ımpact ; font-size:25px; padding-top:10px; }
+#sag-sitebar table tr td b{ color:#e7e7e7	; font-family:arial black; font-size:11px; }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+
+
+
+
+
+.slider_container{ width:90%; margin:0 0 0 2%; clear:both; background:none; padding:30px 0 0 0;}
+.flexslider {width: 100%; margin: 0; padding:0 0 30px 0;background:none;}
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:-10px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:85px;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:40px;}
+.flex-caption { display:none;}
+}
+/* Slider
+http://www.freshdesignweb.com/fashion-responsive-slider-tutorial.html
+*/
+/* Slider
+/*-----------------------------------------------------------------------------------*/
+.slider_container{ width:800px; margin:auto; clear:both; background:url(images/shadow_top.png) no-repeat top center;padding-right:68}
+.flex-caption{ position: absolute; right:11px; bottom:20px;}
+.caption_title_line{ width:450px; height:75px; padding:5px 15px 10px 15px;background:url(images/slider_caption_bg.png) repeat;color: #303030;}
+.flex-caption h2{ color:#303030;font-size:20px; padding:5px 0 5px 0; margin:0px;font-family: 'Ovo', serif;}
+
+.flex-container a:active,
+.flexslider a:active {outline: none;}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {width: 100%; margin: 0; padding: 0 0 30px 0;background:url(images/shadow_bottom.png) no-repeat center bottom;}
+.flexslider .slides > li {display: none;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {max-width: 100%; display: block; border:10px #669966 solid;}
+.flex-pauseplay span {text-transform: capitalize;}
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .slides {display: block;} 
+* html .slides {height: 1%;}
+.no-js .slides > li:first-child {display: block;}
+.flexslider {position: relative; zoom: 1;}
+.flexslider .slides {zoom: 1;}
+.flexslider .slides > li {position: relative;}
+.flex-container {zoom: 1; position: relative;}
+
+/* Direction Nav */
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:11px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:184px;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:141px;}
+.flex-direction-nav li a.next:hover {background:url(images/next_a.png) no-repeat center;}
+.flex-direction-nav li a.prev:hover {background:url(images/prev_a.png) no-repeat center;}
+.flex-direction-nav li a.disabled {opacity: .3; filter:alpha(opacity=30); cursor: default;}
+
+/* Control Nav */
+.flex-control-nav {width: 90%; position: absolute; bottom: -30px; text-align: center;}
+.flex-control-nav li {margin: 0 0 0 5px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-nav li:first-child {margin: 0;}
+.flex-control-nav li a {width: 13px; height: 13px; display: block; cursor: pointer; text-indent: -9999px;}
+.flex-control-nav li a:hover {background-position: 0 -13px;}
+.flex-control-nav li a.active {background-position: 0 -26px; cursor: default;}
+
+/* Media Queries
+/*-----------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1000px) {
+.slider_container{ width:90%; margin:0 0 0 2%; clear:both; background:none; padding:30px 0 0 0;}
+.flexslider {width: 100%; margin: 0; padding:0 0 30px 0;background:none;}
+.flex-direction-nav li a {width:45px; height:42px; margin:0; display: block; position: absolute; right:-10px; cursor: pointer; text-indent: -9999px;}
+.flex-direction-nav li a.next {background:url(images/next.png) no-repeat center; bottom:85px;}
+.flex-direction-nav li a.prev {background:url(images/prev.png) no-repeat center;bottom:40px;}
+.flex-caption { display:none;}
+}
+
+
+
+
+
+
+
+
+
